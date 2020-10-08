@@ -12,6 +12,7 @@
             object-fit: cover;
           }
           </style>
+          <script src="manage-cards.js"></script>
     </head>
       <div class="container-fluid">
         <title>About Me</title>
@@ -29,10 +30,10 @@
                     <a class="nav-link" href="form.html">Form</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="login.html">Sign Up Modal</a>
+                  <a class="nav-link" href="signup-modal/login.html">Sign Up Modal</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="tic-tac-toe.html">Tic Tac Toe</a>
+                <a class="nav-link" href="tic-tac-toe/tic-tac-toe.html">Tic Tac Toe</a>
             </li>
                 
             </ul>
@@ -75,26 +76,26 @@
         <br>
 
 
-        <div class="card-group">
-          <div class="card">
+        <div class="card-group" >
+          <div class="card" >
             <img class="card-img-top" src="https://producer.musicradiocreative.com/wp-content/uploads/2012/07/dj-mix-1280x640.jpg" alt="Music">
-            <div class="card-body">
-              <h5 class="card-title">Music</h5>
-              <p class="card-text">I love rock music and edm. I've recently learned how to play the slide guitar.</p>
+            <div class="card-body" id="interest1" >
+              <button type="button" class="btn btn-primary" onclick="addcard('1')">Add</button>
+              <br>
             </div>
           </div>
-          <div class="card">
+          <div class="card" >
             <img class="card-img-top" src="https://cdn.vox-cdn.com/thumbor/0DEOX1OQ6dLyxgzrGoHx8uoGxrI=/0x0:1704x1092/1400x1050/filters:focal(530x335:802x607):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/52315975/Screen_Shot_2016_12_15_at_5.46.47_PM.0.png" alt="Football">
-            <div class="card-body">
-              <h5 class="card-title">Football</h5>
-              <p class="card-text">My favorite team is the Seattle Seahawks. Go Hawks!!</p>
+            <div class="card-body" id="interest2">
+              <button type="button" class="btn btn-primary" onclick="addcard('2')">Add</button>
+              <br>
             </div>
           </div>
-          <div class="card">
+          <div class="card" >
             <img class="card-img-top" src="https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-1024x683.jpg" alt="Coding" width: 330px height: 180px>
-            <div class="card-body">
-              <h5 class="card-title">Coding</h5>
-              <p class="card-text">I like coding because its much more satisfing then any other school work.</p>
+            <div class="card-body" id="interest3">
+              <button type="button" class="btn btn-primary" onclick="addcard('3')">Add</button>
+              <br>
             </div>
           </div>
         </div>
